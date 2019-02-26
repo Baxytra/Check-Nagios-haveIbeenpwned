@@ -21,7 +21,7 @@ Exemple
 Installation
 ============
 
-apt install git jq
-git clone https://github.com/Baxytra/Check-Nagios-haveIbeenpwned /tmp/Check-Nagios-haveIbeenpwned/
-cp /tmp/Check-Nagios-haveIbeenpwned/check_have-I-been-pwned.sh /usr/lib/nagios/plugins/
+	apt install git jq
+	git clone https://github.com/Baxytra/Check-Nagios-haveIbeenpwned /tmp/Check-Nagios-haveIbeenpwned/
+	cp /tmp/Check-Nagios-haveIbeenpwned/check_have-I-been-pwned.sh /usr/lib/nagios/plugins/
 
