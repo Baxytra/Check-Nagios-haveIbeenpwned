@@ -27,7 +27,7 @@ function log {
 function get_remote_list {
 	rm -rf /tmp/haveibeenpwned/
 	git clone $GIT_MAILLIST /tmp/haveibeenpwned/
-	$EMAIL_LIST="/tmp/haveibeenpwned/email.list"
+	EMAIL_LIST="/tmp/haveibeenpwned/email.list"
 }
 
 while getopts iu:e:g: flag; do
