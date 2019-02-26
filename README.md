@@ -6,7 +6,7 @@ Usage
 =====
 
 With local list:
-	./check_have-I-been-pwned.sh -u <API url> -e <local email list>
+	./check_have-I-been-pwned.sh -u \<API url\> -e <local email list>
 
 With remote list:
 	./check_have-I-been-pwned.sh -u <API url> -g <remote git containing email.list>
